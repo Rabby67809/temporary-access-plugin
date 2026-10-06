@@ -1,0 +1,1 @@
+(function(){'use strict';window.addEventListener('DOMContentLoaded',function(){var f=document.querySelector('form');if(!f)return;var b=f.querySelector('button[type="submit"]');f.addEventListener('submit',function(){if(b){b.disabled=true;b.textContent='Signing in…';}});});}());
